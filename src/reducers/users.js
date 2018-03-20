@@ -2,7 +2,7 @@ import * as actionTypes from '../actionTypes'
 
 const initialState = {
     list: [],
-    test: 'Hi',
+    test: 'Hello!',
     isLoading: false,
     hasError: false,
 };

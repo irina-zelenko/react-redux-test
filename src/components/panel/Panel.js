@@ -13,11 +13,11 @@ class Panel extends Component {
                 <Button text={"Get Users"} onClick={this.props.itemsFetchData}/>
 
                 {this.props.list.map((item) => (
-                    <div className="user">
-                        <div className="image-block">
+                    <div className={'user'}>
+                        <div className={'image-block'}>
                             <img src={item.avatar} />
                         </div>
-                        <div className="user-info">
+                        <div className={'user-info'}>
                             <p>{item.first_name}</p>
                             <p>{item.last_name}</p>
                         </div>
