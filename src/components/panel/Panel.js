@@ -8,21 +8,12 @@ import Button from '../Button'
 class Panel extends Component {
     render() {
         return (
-            <div>
-                <p>{this.props.isLoading}</p>
+            <div className={"Panel"}>
                 <Button text={"Get Users"} onClick={this.props.itemsFetchData}/>
+                <div className={""}>
+                    <p>User number: {this.props.list.length}</p>
+                </div>
 
-                {this.props.list.map((item) => (
-                    <div className={'user'}>
-                        <div className={'image-block'}>
-                            <img src={item.avatar} />
-                        </div>
-                        <div className={'user-info'}>
-                            <p>{item.first_name}</p>
-                            <p>{item.last_name}</p>
-                        </div>
-                    </div>
-                ))}
             </div>
         );
     }

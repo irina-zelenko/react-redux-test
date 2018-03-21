@@ -4,7 +4,7 @@ body {
 }
 
 .button {
-    margin: 50px 0px;
+    margin: 0px 0px 20px;
 }
 .user .image-block{
     display: inline-block;
@@ -14,4 +14,8 @@ body {
     display: inline-block;
     widyh:60%;
     padding-left: 5%;
+}
+.Panel {
+    background-color: #f7f6ff;
+    padding: 50px;
 }
