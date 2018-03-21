@@ -4,7 +4,7 @@ const initialState = {
     list: [],
     test: 'Hello!',
     isLoading: false,
-    hasError: false,
+    hasError: false
 };
 
 const usersReducer = ( state = initialState, action ) => {
